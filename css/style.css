@@ -1,0 +1,232 @@
+* {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #37352f;
+}
+ul, ol {
+   list-style: none;
+}
+
+body {
+   margin: 0;
+   padding: 0;
+}
+.container {
+   max-width: 700px;
+   margin: 0 auto;
+   padding: 0px 20px;
+}
+.main-title {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+}
+.pet-project{
+   margin-top: 180px;
+   position: relative;
+}
+.pet-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/list.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.box {
+   margin-top: 23px;
+}
+.box-title-2 {
+   font-size: 30px;
+   line-height: 39px;
+   font-weight: 500;
+}
+.box-text {
+   margin-top: -9px;
+}
+.span-grey {
+   color: #787774;
+}
+.span-black {
+   font-weight: 500;
+   color: #37352f;
+}
+.box-title-3 {
+   font-size: 24px;
+   line-height: 31px;
+   font-weight: 500;
+}
+.box-title-4 {
+   font-size: 20px;
+   line-height: 26px;
+   font-weight: 500;
+}
+.box-list-item {
+   position: relative;
+   padding-left: 30px;
+}
+.box-list-item::before {
+   content: '';
+   width: 50px;
+   height: 100px;
+   position: absolute;
+}
+
+.extra-box {
+   margin: 60px 0;
+   background-color: #F1F1EF;
+   padding: 5px 5px 5px 55px;
+}
+.light {
+   position: relative;
+}
+.light::before {
+   content: '';
+   position: absolute;
+   width: 45px;
+   height: 100%;
+   top: 25px;
+   left: 5px;
+   background-image: url(../image/idea.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.extra {
+   position: relative;
+}
+.extra::before {
+   content: '';
+   position: absolute;
+   width: 45px;
+   height: 100%;
+   top: 8px;
+   left: 5px;
+   background-image: url(../image/extra.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.flexbox {
+   display: flex;
+   flex-direction: column;
+}
+.flexbox-item {
+   display: flex;
+   margin-top: 15px;
+}
+.flexbox-img {
+   max-width: 20px;
+   margin-right: 10px;
+   object-fit: cover;
+}
+
+.main {
+   margin-bottom: 40px;
+}
+
+.footer {
+   margin-top: 50px;
+   text-align: center;
+}
+
+.pet-project-option {
+   text-align: center;
+}
+
+.footer-blog {
+   position: absolute;
+   bottom: 15px;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%) }
+
+.header {
+   margin-top: 15px;
+}
+
+.header a {
+   text-decoration: none;
+
+}
+
+.ne-main-title {
+   font-size: 30px;
+   line-height: 39px;
+   font-weight: 500;
+}
+
+.video__item {
+   max-width: 100%;
+   object-fit: cover;
+}
+
+
+/*  стили для аккордеона */
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+   background-color: #eee;
+   color: #444;
+   cursor: pointer;
+   padding: 18px;
+   width: 100%;
+   text-align: left;
+   border: none;
+   outline: none;
+   transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+   background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+   padding: 0 18px;
+   background-color: white;
+   max-height: 0;
+   overflow: hidden;
+   transition: max-height 0.2s ease-out;
+}
+.accordion:after {
+   content: '\02795'; /* Unicode character for "plus" sign (+) */
+   font-size: 13px;
+   color: #777;
+   float: right;
+   margin-left: 5px;
+}
+
+.active:after {
+   content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+@media screen and (max-width: 768px) {
+   .pet-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/list.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
+   .pet-project{
+      margin-top: 100px;
+   }
+   .extra::before {
+      content: '';
+      position: absolute;
+      width: 45px;
+      height: 100%;
+      top: 25px;
+      left: 5px;
+      background-image: url(../image/extra.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+   }
+}
