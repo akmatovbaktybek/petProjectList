@@ -423,6 +423,86 @@ body {
       background-repeat: no-repeat;
       top: -60px;
    }
+   .blog-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/blog.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
+   .economy-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/economy.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
+   .hotel-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/hotel.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
+   .notepad-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/notepad.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
+   .store-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/market.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
+   .task-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/task.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
+   .time-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/time.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
+   .weather-project::before {
+      content: '';
+      width: 50px;
+      height: 100px;
+      position: absolute;
+      background-image: url(../image/weather.svg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -60px;
+   }
    .pet-project{
       margin-top: 100px;
    }
