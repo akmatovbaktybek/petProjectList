@@ -23,11 +23,11 @@ body {
    font-size: 40px;
    line-height: 48px;
 }
-.pet-project{
+.main-project{
    margin-top: 180px;
    position: relative;
 }
-.pet-project::before {
+.main-project::before {
    content: '';
    width: 80px;
    height: 100px;
@@ -37,8 +37,10 @@ body {
    background-size: 100%;
    background-repeat: no-repeat;
 }
+
+
 .box {
-   margin-top: 23px;
+   margin-top: 25px;
 }
 .box-title-2 {
    font-size: 30px;
@@ -133,38 +135,6 @@ body {
    text-align: center;
 }
 
-.pet-project-option {
-   text-align: center;
-}
-
-.footer-blog {
-   position: absolute;
-   bottom: 15px;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -50%) }
-
-.header {
-   margin-top: 15px;
-}
-
-.header a {
-   text-decoration: none;
-
-}
-
-.ne-main-title {
-   font-size: 30px;
-   line-height: 39px;
-   font-weight: 500;
-}
-
-.video__item {
-   max-width: 100%;
-   object-fit: cover;
-}
-
-
 /*  стили для аккордеона */
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
@@ -203,6 +173,244 @@ body {
 .active:after {
    content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+/* стили для blog.html */
+.blog-project{
+   margin-top: 180px;
+   position: relative;
+}
+.blog-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/blog.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.box-list {
+   margin-top: -15px;
+   margin-left: 30px;
+   padding-left: 0;
+   list-style-type: disc;
+}
+.box-list-item {
+   padding-left: 0;
+   margin-bottom: 10px;
+}
+.box-item {
+   margin-bottom: 30px;
+}
+.box-img {
+   text-align: center;
+}
+.box-img img {
+   max-width: 100%;
+   cursor: pointer;
+}
+.border-bottom {
+   margin-top: 13px;
+   max-width: 700px;
+   height: 2px;
+   background-color: rgba(55, 53, 47, 0.16);
+}
+
+/* стили для увеличения фото */
+
+.full {
+   display: none;
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   padding: 8%;
+   background: #CCC center no-repeat;
+   background: rgba(0, 0, 0, 0.5) center no-repeat;
+   background-size: contain;
+   background-origin: content-box;
+ }
+ a:focus + .full {
+   display: block;
+ }
+
+
+/* end стили для blog.html */
+
+/* стили для hotel.html */
+
+.hotel-project{
+   margin-top: 180px;
+   position: relative;
+}
+.hotel-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/hotel.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+/*end стили для hotel.html */
+
+/* стили для store.html */
+
+.store-project{
+   margin-top: 180px;
+   position: relative;
+}
+.store-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/market.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.box-list-circle {
+   list-style-type: circle;
+}
+
+/*end стили для store.html */
+
+/* стили для time.html */
+
+.time-project{
+   margin-top: 180px;
+   position: relative;
+}
+.time-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/time.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+/*end стили для time.html */
+
+/* стили для economy.html */
+
+.economy-project{
+   margin-top: 180px;
+   position: relative;
+}
+.economy-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/economy.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+.box-list-square {
+   list-style-type: square;
+}
+
+/*end стили для economy.html */
+
+/* стили для notepad.html */
+
+.notepad-project{
+   margin-top: 180px;
+   position: relative;
+}
+.notepad-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/notepad.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+/*end стили для notepad.html */
+
+/* стили для weather.html */
+
+.weather-project{
+   margin-top: 180px;
+   position: relative;
+}
+.weather-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/weather.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+/*end стили для weather.html */
+
+/* стили для task.html */
+
+.task-project{
+   margin-top: 180px;
+   position: relative;
+}
+.task-project::before {
+   content: '';
+   width: 80px;
+   height: 100px;
+   position: absolute;
+   top: -110px;
+   background-image: url(../image/task.svg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+/*end стили для task.html */
+
+/* стили для manul.html */
+.pet-project-option {
+   text-align: center;
+}
+
+.footer-blog {
+   position: absolute;
+   bottom: 15px;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%) }
+
+.header {
+   margin-top: 15px;
+   margin-left: 20px;
+}
+
+.header a {
+   text-decoration: none;
+
+}
+
+.ne-main-title {
+   font-size: 30px;
+   line-height: 39px;
+   font-weight: 500;
+}
+
+.video__item {
+   max-width: 100%;
+   object-fit: cover;
+}
+
+/* end стили для manul.html */
 
 @media screen and (max-width: 768px) {
    .pet-project::before {
